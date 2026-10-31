@@ -3,13 +3,13 @@ module github.com/GoogleCloudPlatform/alloydb-auth-proxy
 go 1.27.3
 
 require (
-	cloud.google.com/go/alloydbconn v1.19.2
+	cloud.google.com/go/alloydbconn v1.19.3
 	contrib.go.opencensus.io/exporter/prometheus v0.4.2
 	contrib.go.opencensus.io/exporter/stackdriver v0.13.14
 	github.com/coreos/go-systemd/v22 v22.7.0
 	github.com/google/go-cmp v0.7.0
-	github.com/hanwen/go-fuse/v2 v2.11.0
-	github.com/jackc/pgx/v5 v5.11.0
+	github.com/hanwen/go-fuse/v2 v2.12.1
+	github.com/jackc/pgx/v5 v5.12.0
 	github.com/spf13/cobra v1.10.2
 	github.com/spf13/pflag v1.0.10
 	github.com/spf13/viper v1.21.0
@@ -17,7 +17,7 @@ require (
 	go.opentelemetry.io/otel v1.47.0
 	golang.org/x/oauth2 v0.37.0
 	golang.org/x/sys v0.49.0
-	google.golang.org/api v0.304.0
+	google.golang.org/api v0.310.0
 	gopkg.in/natefinch/lumberjack.v2 v2.2.1
 )
 
